@@ -23,7 +23,9 @@
         </div>
         <div class="col-md-8 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0s">
           <div class="container">
-            <h2 class="pt-2">Over mij</h2>
+            <h2 class="pt-2">
+              <i class="fa fa-user"></i> Over mij
+            </h2>
             <hr class="title" />
             <p
               class="content"
@@ -32,11 +34,13 @@
         </div>
         <div class="col-md-4 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.4s">
           <div class="container">
-            <h2 class="pt-2">Professionele skills</h2>
+            <h2 class="pt-2">
+              <i class="fas fa-clipboard-list"></i> Professionele skills
+            </h2>
             <hr class="title" />
             <ul class="skill-dots" id="skill-dots">
               <li class="skill">
-                <span class="skill-title">C#</span>
+                <span class="skill-title">Communicatie</span>
                 <div class="skill-progress" data-score="9">
                   <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
                   <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
@@ -51,7 +55,7 @@
                 </div>
               </li>
               <li class="skill">
-                <span class="skill-title">Javascript</span>
+                <span class="skill-title">Creativiteit</span>
                 <div class="skill-progress" data-score="8">
                   <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
                   <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
@@ -66,7 +70,7 @@
                 </div>
               </li>
               <li class="skill">
-                <span class="skill-title">Typescript</span>
+                <span class="skill-title"></span>
                 <div class="skill-progress" data-score="9">
                   <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
                   <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
@@ -115,7 +119,9 @@
         </div>
         <div class="col-md-4 wow fadeIn righty" data-wow-duration="2.5s" data-wow-delay="0.4s">
           <div class="container">
-            <h2 class="pt-2">Programmeerervaring</h2>
+            <h2 class="pt-2">
+              <i class="fas fa-laptop-code"></i> Programmeerervaring
+            </h2>
             <hr class="title" />
             <ul class="skill-dots" id="skill-dots">
               <li class="skill">
@@ -198,7 +204,9 @@
         </div>
         <div class="col-md-8 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.6s">
           <div class="container">
-            <h2 class="pt-2">Opleiding</h2>
+            <h2 class="pt-2">
+              <i class="fa fa-graduation-cap"></i> Opleiding
+            </h2>
             <hr class="title" />
             <!--first section-->
             <div class="row align-items-center how-it-works d-flex">
@@ -206,13 +214,13 @@
                 class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center"
               >
                 <div class="circle font-weight-bold">
-                  2009
+                  2014
                   <br />-
-                  <br />2014
+                  <br />2019
                 </div>
               </div>
               <div class="col-6">
-                <h5>Havo</h5>
+                <h5>Bachelor Informatica</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
               </div>
             </div>
@@ -231,16 +239,16 @@
             <!--second section-->
             <div class="row align-items-center justify-content-end how-it-works d-flex">
               <div class="col-6 text-right">
-                <h5>Propedeuse Informatica</h5>
+                <h5>Minor Security</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
               </div>
               <div
                 class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
               >
                 <div class="circle font-weight-bold">
-                  2014
+                  2018
                   <br />-
-                  <br />2016
+                  <br />2019
                 </div>
               </div>
             </div>
@@ -262,13 +270,13 @@
                 class="col-2 text-center full-left d-inline-flex justify-content-center align-items-center"
               >
                 <div class="circle font-weight-bold">
-                  2018
+                  2014
                   <br />-
-                  <br />2019
+                  <br />2016
                 </div>
               </div>
               <div class="col-6">
-                <h5>Minor Security</h5>
+                <h5>Propedeuse Informatica</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
               </div>
             </div>
@@ -287,16 +295,16 @@
             <!--fourth section-->
             <div class="row align-items-center justify-content-end how-it-works d-flex">
               <div class="col-6 text-right">
-                <h5>Bachelor Informatica</h5>
+                <h5>Havo</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
               </div>
               <div
                 class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
               >
                 <div class="circle font-weight-bold">
-                  2014
+                  2009
                   <br />-
-                  <br />2019
+                  <br />2014
                 </div>
               </div>
             </div>
@@ -304,7 +312,9 @@
         </div>
         <div class="col-md-8 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0s">
           <div class="container">
-            <h2 class="pt-2">Werkervaring</h2>
+            <h2 class="pt-2">
+              <i class="fas fa-briefcase"></i> Werkervaring
+            </h2>
             <hr class="title" />
             <!--first section-->
             <div class="row align-items-center how-it-works d-flex">
@@ -312,13 +322,11 @@
                 class="col-2 text-center d-inline-flex justify-content-center align-items-center"
               >
                 <div class="circle font-weight-bold">
-                  2016
-                  <br />-
-                  <br />2017
+                  <br />2019
                 </div>
               </div>
               <div class="col-10">
-                <h5>Studentaanhuis</h5>
+                <h5>App4mation - Afstudeerstage</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
               </div>
             </div>
@@ -335,7 +343,7 @@
                 </div>
               </div>
               <div class="col-10">
-                <h5>Xylem Water Solutions</h5>
+                <h5>Xylem Water Solutions - Stage</h5>
                 <p>In this Internship I have built a full stack web application for the customer support department of Xylem Benelux. The front-end was made with Vue.js and Node, while the backend API was built in the ASP .NET environment.</p>
               </div>
             </div>
@@ -345,11 +353,13 @@
                 class="col-2 text-center d-inline-flex justify-content-center align-items-center"
               >
                 <div class="circle font-weight-bold">
-                  <br />2019
+                  2016
+                  <br />-
+                  <br />2017
                 </div>
               </div>
               <div class="col-10">
-                <h5>App4mation</h5>
+                <h5>Studentaanhuis</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
               </div>
             </div>
@@ -357,7 +367,9 @@
         </div>
         <div class="col-md-8 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.2s">
           <div class="container">
-            <h2 class="pt-2">Certificaten</h2>
+            <h2 class="pt-2">
+              <i class="far fa-file"></i> Certificaten
+            </h2>
             <hr class="title" />
             <!--first section-->
             <div class="row align-items-center how-it-works d-flex">
@@ -371,6 +383,65 @@
               <div class="col-10">
                 <h5>Professional Scrum Master I</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.2s">
+          <div class="container">
+            <h2 class="pt-2">
+              <i class="fas fa-globe"></i> Talen
+            </h2>
+            <hr class="title" />
+            <!--first section-->
+            <div class="row align-items-center how-it-works d-flex">
+              <div
+                class="col-2 text-center d-inline-flex justify-content-center align-items-center"
+              >Engels</div>
+              <div class="col-10">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Lezen</th>
+                      <th scope="col">Schrijven</th>
+                      <th scope="col">Luisteren</th>
+                      <th scope="col">Praten</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>B2</td>
+                      <td>B2</td>
+                      <td>B1</td>
+                      <td>B2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="row align-items-center how-it-works d-flex">
+              <div
+                class="col-2 text-center d-inline-flex justify-content-center align-items-center"
+              >Nederlands</div>
+              <div class="col-10">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Lezen</th>
+                      <th scope="col">Schrijven</th>
+                      <th scope="col">Luisteren</th>
+                      <th scope="col">Praten</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>B2</td>
+                      <td>B2</td>
+                      <td>B2</td>
+                      <td>B2</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
