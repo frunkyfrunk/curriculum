@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container" style="float:none">
       <div class="row" ref="content">
         <div
           class="col-md-8 offset-md-2 wow fadeIn mb-3"
@@ -16,10 +16,7 @@
               <div
                 data-v-b51266c0
                 class="fixh"
-                style="
-    display: inline-block;
-    margin-top: -3px;
-    position: absolute;"
+                style="display: inline-block;margin-top: -3px;position: absolute;"
               >
                 <h6>
                   <i class="fas fa-phone"></i> 06-21833104
@@ -56,206 +53,239 @@
             </p>
           </div>
         </div>
-        <div class="col-md-4 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.4s">
-          <div class="container">
-            <h2 class="pt-2">
-              <i class="fas fa-clipboard-list"></i> Professionele skills
-            </h2>
-            <hr class="title" />
-            <ul class="skill-dots" id="skill-dots">
-              <li class="skill">
-                <span class="skill-title">Schrijfvaardigheid</span>
-                <div class="skill-progress" data-score="9">
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa wow animated" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Zelfstandigheid</span>
-                <div class="skill-progress" data-score="8">
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active" style="visibility: visible;"></i>
-                  <i class="fa wow animated" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Creativiteit</span>
-                <div class="skill-progress" data-score="9">
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Teamwerk</span>
-                <div class="skill-progress" data-score="7">
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa wow animated" style="visibility: visible;"></i>
-                  <i class="fa wow animated" style="visibility: visible;"></i>
-                  <i class="fa wow animated" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Leiderschap</span>
-                <div class="skill-progress" data-score="4">
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4 wow fadeIn righty" data-wow-duration="2.5s" data-wow-delay="0.4s">
-          <div class="container">
-            <h2 class="pt-2">
-              <i class="fas fa-laptop-code"></i> Programmeerervaring
-            </h2>
-            <hr class="title" />
-            <ul class="skill-dots" id="skill-dots">
-              <li class="skill">
-                <span class="skill-title">Typescript</span>
-                <div class="skill-progress" data-score="9">
-                  <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Javascript / Node.JS</span>
-                <div class="skill-progress" data-score="8">
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Vue.JS</span>
-                <div class="skill-progress" data-score="4">
-                  <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">C# / .NET</span>
-                <div class="skill-progress" data-score="9">
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-              <li class="skill">
-                <span class="skill-title">Java / Android</span>
-                <div class="skill-progress" data-score="7">
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa active purple" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible; animation-name: skills;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                  <i class="fa" style="visibility: visible;"></i>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-8 offset-md-2">
-          <div data-v-b51266c0 class="skill">
+        <div style="display:contents" class="container">
+          <div
+            class="col-md-4 offset-md-2 wow fadeIn"
+            data-wow-duration="2.5s"
+            data-wow-delay="0.4s"
+          >
             <div class="container">
+              <h2 class="pt-2">
+                <i class="fas fa-clipboard-list"></i> Professionele skills
+              </h2>
+              <hr class="title" />
               <ul class="skill-dots" id="skill-dots">
                 <li class="skill">
-                  <span class="skill-title" style="width:141px;">Legenda ervaring</span>
-
-                  <div class="skill-progress" style="padding-left:10px">
-                    <i
-                      class="fa active wow blue"
-                      style="visibility: visible; animation-name: skills;"
-                    ></i>
-                    < 1 jaar geleden
+                  <span class="skill-title">Schrijfvaardigheid</span>
+                  <div class="skill-progress" data-score="9">
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa wow animated" style="visibility: visible;"></i>
                   </div>
-                  <div class="skill-progress" style="padding-left:10px">
-                    <i
-                      class="fa active wow green"
-                      style="visibility: visible; animation-name: skills;"
-                    ></i>
-                    1 - 2 jaren geleden
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Zelfstandigheid</span>
+                  <div class="skill-progress" data-score="8">
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active" style="visibility: visible;"></i>
+                    <i class="fa wow animated" style="visibility: visible;"></i>
                   </div>
-                  <div class="skill-progress" style="padding-left:10px">
-                    <i
-                      class="fa active wow purple"
-                      style="visibility: visible; animation-name: skills;"
-                    ></i>
-                    > 2 jaar geleden
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Creativiteit</span>
+                  <div class="skill-progress" data-score="9">
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                  </div>
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Teamwerk</span>
+                  <div class="skill-progress" data-score="7">
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa wow animated" style="visibility: visible;"></i>
+                    <i class="fa wow animated" style="visibility: visible;"></i>
+                    <i class="fa wow animated" style="visibility: visible;"></i>
+                  </div>
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Leiderschap</span>
+                  <div class="skill-progress" data-score="4">
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active wow" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
                   </div>
                 </li>
               </ul>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeIn righty" data-wow-duration="2.5s" data-wow-delay="0.4s">
+            <div class="container">
+              <h2 class="pt-2">
+                <i class="fas fa-laptop-code"></i> Programmeerervaring
+              </h2>
+              <hr class="title" />
+              <ul class="skill-dots" id="skill-dots">
+                <li class="skill">
+                  <span class="skill-title">Typescript</span>
+                  <div class="skill-progress" data-score="9">
+                    <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                  </div>
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Javascript / Node.JS</span>
+                  <div class="skill-progress" data-score="8">
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active blue" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                  </div>
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Vue.JS</span>
+                  <div class="skill-progress" data-score="4">
+                    <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                  </div>
+                </li>
+                <li class="skill">
+                  <span class="skill-title">C# / .NET</span>
+                  <div class="skill-progress" data-score="9">
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i class="fa active green" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                  </div>
+                </li>
+                <li class="skill">
+                  <span class="skill-title">Java / Android</span>
+                  <div class="skill-progress" data-score="7">
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i
+                      class="fa active purple"
+                      style="visibility: visible; animation-name: skills;"
+                    ></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible; animation-name: skills;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                    <i class="fa" style="visibility: visible;"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-2">
+            <div data-v-b51266c0 class="skill">
+              <div class="container">
+                <ul class="skill-dots" id="skill-dots">
+                  <li class="skill">
+                    <span class="skill-title" style="width:141px;">Legenda ervaring</span>
+
+                    <div class="skill-progress" style="padding-left:10px">
+                      <i
+                        class="fa active wow blue"
+                        style="visibility: visible; animation-name: skills;"
+                      ></i>
+                      < 1 jaar geleden
+                    </div>
+                    <div class="skill-progress" style="padding-left:10px">
+                      <i
+                        class="fa active wow green"
+                        style="visibility: visible; animation-name: skills;"
+                      ></i>
+                      1 - 2 jaar geleden
+                    </div>
+                    <div class="skill-progress" style="padding-left:10px">
+                      <i
+                        class="fa active wow purple"
+                        style="visibility: visible; animation-name: skills;"
+                      ></i>
+                      > 2 jaar geleden
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -394,7 +424,11 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 offset-md-2 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0s">
+        <div
+          class="col-md-8 offset-md-2 wow fadeIn pagebreak"
+          data-wow-duration="2.5s"
+          data-wow-delay="0s"
+        >
           <div class="container">
             <h2 class="pt-2">
               <i class="fas fa-briefcase"></i> Werkervaring
@@ -564,9 +598,25 @@ new WOW().init();
 .purple {
   color: #a22bf2 !important;
 }
+@page {
+  size: A4;
+  margin: 0;
+}
 @media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+  .col-md-4 {
+    width: 90mm;
+  }
+  .pagebreak {
+    margin-top: 300px;
+  }
+
   .container {
-    margin-left: 15mm;
+    margin-left: 10mm;
   }
   .righty {
     margin-left: 165px;
